@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Ferid Asoiu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Ferid<span>Asoiu</span></a>
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="blog.html" class="active"><i class="fas fa-blog"></i> Blog</a></li>
+                <li><a href="projects.html"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a href="index.html#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Blog Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Blog Articles</h1>
+            <p>My thoughts and writings on information security, cybersecurity, and technology</p>
+        </div>
+    </section>
+
+    <!-- Blog Content -->
+    <section class="section blog">
+        <div class="container">
+            <div class="blog-posts">
+                <!-- Blog Post 1 -->
+                <article class="blog-post">
+                    <div class="blog-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-shield-alt"></i>
+                            <!-- Blog image will go here -->
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Cybersecurity</span>
+                            <span class="blog-date"><i class="far fa-calendar"></i> October 15, 2023</span>
+                        </div>
+                        <h3><a href="#">Top Cybersecurity Threats to Watch in 2023</a></h3>
+                        <p>An analysis of the most significant cybersecurity threats facing businesses and individuals in 2023, along with protection strategies and best practices.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="blog-post">
+                    <div class="blog-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-lock"></i>
+                            <!-- Blog image will go here -->
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Cryptography</span>
+                            <span class="blog-date"><i class="far fa-calendar"></i> October 5, 2023</span>
+                        </div>
+                        <h3><a href="#">Quantum Computing and Cryptography</a></h3>
+                        <p>Exploring the potential impact of quantum computers on current cryptography systems and future quantum-resistant encryption methods.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="blog-post">
+                    <div class="blog-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-network-wired"></i>
+                            <!-- Blog image will go here -->
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Network Security</span>
+                            <span class="blog-date"><i class="far fa-calendar"></i> September 22, 2023</span>
+                        </div>
+                        <h3><a href="#">Essential Steps for Home Network Security</a></h3>
+                        <p>Basic security measures and best practices you can implement to protect your home network from cyber threats.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 4 -->
+                <article class="blog-post">
+                    <div class="blog-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-code"></i>
+                            <!-- Blog image will go here -->
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Web Security</span>
+                            <span class="blog-date"><i class="far fa-calendar"></i> September 10, 2023</span>
+                        </div>
+                        <h3><a href="#">OWASP Top 10 2023 Update</a></h3>
+                        <p>Changes in the OWASP Top 10 2023 update, new security vulnerabilities, and recommendations for developers.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Sidebar -->
+            <aside class="blog-sidebar">
+                <div class="sidebar-widget">
+                    <h3>Categories</h3>
+                    <ul class="categories">
+                        <li><a href="#">Cybersecurity <span>(5)</span></a></li>
+                        <li><a href="#">Network Security <span>(3)</span></a></li>
+                        <li><a href="#">Cryptography <span>(2)</span></a></li>
+                        <li><a href="#">Web Security <span>(4)</span></a></li>
+                        <li><a href="#">AI and Security <span>(1)</span></a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3>Popular Posts</h3>
+                    <div class="popular-posts">
+                        <div class="popular-post">
+                            <h4><a href="#">How Secure Are Password Managers?</a></h4>
+                            <span class="post-date">August 12, 2023</span>
+                        </div>
+                        <div class="popular-post">
+                            <h4><a href="#">Two-Factor Authentication (2FA) Guide</a></h4>
+                            <span class="post-date">July 28, 2023</span>
+                        </div>
+                        <div class="popular-post">
+                            <h4><a href="#">Protecting Against Social Engineering Attacks</a></h4>
+                            <span class="post-date">July 15, 2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3>Tags</h3>
+                    <div class="tags">
+                        <a href="#" class="tag">#security</a>
+                        <a href="#" class="tag">#cybersecurity</a>
+                        <a href="#" class="tag">#cryptography</a>
+                        <a href="#" class="tag">#networksecurity</a>
+                        <a href="#" class="tag">#websecurity</a>
+                        <a href="#" class="tag">#ethicalhacking</a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html" class="logo">Ferid<span>Asoiu</span></a>
+                    <p>Professional solutions in information security and cybersecurity.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Social Media</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Ferid Asoiu. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
